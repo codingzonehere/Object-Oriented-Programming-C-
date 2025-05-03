@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
 /******
 01. Only Friend function access private and protected data.
 02. A friend function is not a member function.
@@ -10,6 +8,31 @@ using namespace std;
 07. From outside the class, it will call the private and protected member function.
 08. It is declare with the friend keyword.
 *******/
+/****************************************************************************************************
+***************************************AUTHOR: TANVIR AHMED******************************************
+*********************************************CSE, DUET***********************************************
+****************************************************************************************************/
+#include <bits/stdc++.h>
+#include <algorithm>
+#include <cstring>
+#include <string>
+#include <vector>
+#define testcase int t; cin>>t; while(t--)
+#define iosbse ios_base::sync_with_stdio(false)
+#define cintie cin.tie(NULL)
+#define ll long long int
+#define forloop for (int i = 0; i < n; ++i)
+#define vecti vector<int>
+#define vect vector<ll>
+#define sr string
+#define YS cout << "YES" <<endl
+#define NO cout << "NO" <<endl
+#define pb(x) push_back(x)
+#define sz(x) trunc(log10(x)) + 1
+#define setpre(x) cout<<fixed<<setprecision(x)<<endl;
+
+using namespace std;
+
 class Person{
     private:
     string myName = "Tanvir"; // Member variable...
